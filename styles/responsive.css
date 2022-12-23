@@ -1,0 +1,33 @@
+@media (max-width: 700px) {
+  .container {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .main_movie {
+    height: auto;
+    padding: 1rem 0;
+  }
+
+  .container_main {
+    width: 100%;
+    margin-left: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .description {
+    width: 95%;
+    margin: 1rem 0;
+  }
+
+  .button {
+    width: 8rem;
+  }
+}
+
+@media (max-width: 300px) {
+  .button {
+    margin: 0.7rem 0;
+  }
+}
