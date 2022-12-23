@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/responsive.css" />
+    <link rel="stylesheet" href="./styles/Owl/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./styles/Owl/owl.theme.default.min.css" />
     <title>Netflix</title>
   </head>
   <body>
@@ -20,21 +23,97 @@
       </div>
     </header>
     <main>
-      <div class="main_movie">
+      <div class="main_movie" alt="featured series background image">
         <div class="container_main">
-          <h3 class="title">TITLE MOVIE</h3>
+          <h3 class="title">ULTRAVIOLET</h3>
           <p class="description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-            tenetur laudantium corporis dicta? Cum, non temporibus porro cumque
-            earum voluptates, eum quis, facere rem maiores excepturi optio.
-            Debitis, repellendus magnam!
+            nspirada pelo livro The Skeleton Crew da escritora Deborah Halber,
+            esta série conta a história de Ola Serafin, uma mulher de 30 anos
+            que se vê forçada a deixar o marido, saindo de Londres e retornando
+            para a sua terra natal de Lódz. Uma noite, Ola está dirigindo o seu
+            carro e encontra um cadáver. A policia acaba descartando o caso como
+            sendo um homicídio, mas a protagonista inicia uma investigação
+            pessoal, junto de um grupo de detetives amadores que encontra na
+            internet. Ultraviolet conta já com duas temporadas e cerca de 22
+            episódios.
           </p>
           <div class="buttons">
-            <button role="button" class="button">To watch</button>
-            <button role="button" class="button">more information</button>
+            <button role="button" class="button">
+              <i class="fa fa-play" aria-hidden="true"></i>TO WATCH
+            </button>
+            <button role="button" class="button">
+              <i class="fa fa-info-circle" aria-hidden="true"></i>MORE
+              INFORMATION
+            </button>
           </div>
         </div>
       </div>
     </main>
+    <div class="carousel-movies">
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img
+            class="box-movie"
+            src="./imgs/mini1.jpg"
+            alt="The Umbrella Academy image"
+          />
+        </div>
+        <div class="item">
+          <img
+            class="box-movie"
+            src="./imgs/mini2.jpg"
+            alt="Star Wars: The rise of skywalker image"
+          />
+        </div>
+        <div class="item">
+          <img class="box-movie" src="./imgs/mini3.jpg" alt="Pokemon image" />
+        </div>
+        <div class="item">
+          <img
+            class="box-movie"
+            src="./imgs/mini4.jpg"
+            alt="Captain America Civil war Cast image"
+          />
+        </div>
+        <div class="item">
+          <img
+            class="box-movie"
+            src="./imgs/mini5.jpg"
+            alt="The Hobbit image"
+          />
+        </div>
+        <div class="item">
+          <img
+            class="box-movie"
+            src="./imgs/mini6.jpg"
+            alt="Breaking Bad image"
+          />
+        </div>
+        <div class="item">
+          <img class="box-movie" src="./imgs/mini7.jpg" alt=" House Image" />
+        </div>
+        <div class="item">
+          <img
+            class="box-movie"
+            src="./imgs/mini8.jpg"
+            alt="Supernatural Image"
+          />
+        </div>
+        <div class="item">
+          <img
+            class="box-movie"
+            src="./imgs/mini9.jpg"
+            alt="SmallVille Image "
+          />
+        </div>
+        <div class="item">
+          <img class="box-movie" src="./imgs/mini10.jpg" alt="Avengers Image" />
+        </div>
+      </div>
+    </div>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="./js/Owl/jquery.min.js"></script>
+    <script src="./js/Owl/owl.carousel.min.js"></script>
+    <script src="./js/Owl/main.js"></script>
   </body>
 </html>
